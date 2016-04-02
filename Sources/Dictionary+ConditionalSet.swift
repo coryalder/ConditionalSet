@@ -8,7 +8,7 @@
 import Foundation
 
 extension Dictionary {
-    mutating func set(key: Key, value: Value?) {
+   public mutating func set(key: Key, value: Value?) {
         if let v = value {
             self[key] = v
         }
